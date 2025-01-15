@@ -1,24 +1,17 @@
 <header>
-    <nav>
-        <div>
+    <nav class="my-5">
+        <div class="container mx-auto flex items-center justify-between px-4">
             <a href="index.html">
-                <img src="./assets/images/logo.png" alt="Logo">
+                <img src="./assets/images/logo.png" alt="Logo" class="max-w-[150px]">
             </a>
-            <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+            <!-- <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span></span>
-            </button>
-
-            <div id="navbarNav">
+            </button> -->
+            <div id="navbarNav" class="hidden md:flex items-center space-x-6">
                 <ul>
                     <li>
-                        <a href="./pages/speakers.html">Ponentes</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="./pages/article.html">Artículo</a>
-                    </li>
-                    <li>
-                        <a href="./pages/events.html">Eventos</a>
+                        <a href="../pages/speakers.html" class="hover:text-primaryColor text-xl transition">Ponentes</a>
                     </li>
                 </ul>
             </div>
