@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cooking-header {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+.cooking-header h1 {
+  margin: 0;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+main {
+  padding: 20px;
+}
+.contestants,
+.recipes {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.contestants h2 {
+  font-size: 70px;
+}
+.contestants p {
+  font-size: 40px;
+  color: gray;
+}
+.contestants img {
+  margin-top: 150px;
+  width: 80%;
+  border-radius: 20px;
+}
+.contestants h2 {
+  margin-bottom: 10px;
+}
+.contestants p {
+  margin-bottom: 20px;
+}
+
+.recipes-header {
+  text-align: start;
+  padding-left: 10%;
+}
+.recipes-header h2 {
+  font-size: 60px;
+}
+.recipes-header p {
+  font-size: 40px;
+  color: gray;
+}
+.recipe-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.recipe-card {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  text-align: start;
+  width: 20%;
+  padding: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.recipe-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.recipe-card img {
+  width: 100px;
+}
+.recipe-card h3 {
+  margin: 0;
+  font-size: 25px;
+}
+.recipe-card p {
+  margin: 5px 0;
+}
+.recipe-comment {
+  color: gray;
+}
+.cooking-footer {
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+.cooking-footer .footer-title {
+  width: 80%;
+}
+.cooking-footer p {
+  font-size: 30px;
+}
+.cooking-footer table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.cooking-footer th,
+.cooking-footer td {
+  padding: 8px;
+  text-align: left;
+}
+.social-icons {
+  margin-top: 20px;
+}
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+}
