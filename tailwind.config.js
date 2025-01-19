@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        backgroundColor: "#222222",
-        primaryColor: "#FFFF00",
+        backgroundColor: "color(display-p3 0.133 0.133 0.133)",
+        primaryColor: "hwb(50deg 0% 0%)",
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
